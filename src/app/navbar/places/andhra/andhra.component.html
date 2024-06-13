@@ -1,0 +1,13 @@
+
+<button class="up1Btn "(click)="imageSource = '../../assets/ap1.jpg'" style="width: 10%,height=auto">1.In nellore which cuisine has the highest food rating in the dataset ?</button><br>
+
+<button class="up2Btn" (click)="imageSource = '../../assets/ap2.jpg'" style="width: 10% ,height=auto">2.In Nellore which restaurant had the highest delivery rating in the dataset?</button><br>
+
+<button class="up3Btn" (click)="imageSource = '../../assets/ap3.jpg'" style="width: 10%,height=auto">3.In Nellore which mode of payment is used comparatively less in the dataset?</button><br>
+
+<button class="up4Btn "(click)="imageSource = '../../assets/ap4.jpg'" style="width: 10%,height=auto">4.In Nellore which item has highest tax amount in the dataset?</button><br>
+
+<button class="up5Btn" (click)="imageSource = '../../assets/ap5.jpg'" style="width: 10%,height=auto">5.IN Nellore which restaurant has the highest bill amount in the data set?</button><br>
+<div class="img">
+    <img [src]="imageSource" *ngIf="imageSource"/>
+    </div>

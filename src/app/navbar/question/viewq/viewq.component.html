@@ -1,0 +1,14 @@
+<button class="up1Btn "(click)="imageSource = '../../assets/q1.jpg'" style="width: 10%,height=auto">1. In Noida which cuisine got the greatest discount on food?</button><br>
+
+<button class="up2Btn" (click)="imageSource = '../../assets/q2.jpg'" style="width: 10% ,height=auto">2.Which cuisine took  longest time to be delivered in the dataset?</button><br>
+
+<button class="up3Btn" (click)="imageSource = '../../assets/q5.jpg'" style="width: 10%,height=auto">3.Interpret the following graph which place got the best delivery rating and took less delivery fee ?</button><br>
+
+<button class="up4Btn "(click)="imageSource = '../../assets/q3.jpg'" style="width: 10%,height=auto">4.Which is the most used mode of payment overall?</button><br>
+
+<button class="up5Btn" (click)="imageSource = '../../assets/q4.jpg'" style="width: 10%,height=auto">5.Which place got least delivery fee compared to other places in data collected ?
+</button><br>
+
+<div class="img">
+<img [src]="imageSource" *ngIf="imageSource"/>
+</div>

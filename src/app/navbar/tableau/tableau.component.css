@@ -1,0 +1,31 @@
+list{
+    text-align: centre;
+    justify-content: space-around;
+    
+}
+.list a{
+   font-weight:bold;
+    float: left;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(50, 8, 8);
+    transition: 0.4s;
+    text-align:center;
+    padding-right:10px ;
+padding-left: 10px;
+
+
+  
+}
+.list a:hover{
+    color: rgb(250, 234, 234);
+}
+.items strong{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+}
+.items p{
+    font-style:oblique;
+    font-size: 1rem;
+    font-weight: 400;
+}

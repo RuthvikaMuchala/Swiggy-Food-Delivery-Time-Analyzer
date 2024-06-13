@@ -1,0 +1,13 @@
+<button class="up1Btn "(click)="imageSource = '../../assets/ts1.jpg'" style="width: 10%,height=auto">1.In Hyderabad Which restaurant has received highest delivery partner fee in the dataset?</button><br>
+
+<button class="up2Btn" (click)="imageSource = '../../assets/ts2.jpg'" style="width: 10% ,height=auto">2.In Hyderabad which mode of payment is most frequently used??</button><br>
+
+<button class="up3Btn" (click)="imageSource = '../../assets/ts3.jpg'" style="width: 10%,height=auto">3.In Hyderabad which restaurant has the lowest bill amount in the dataset?</button><br>
+
+<button class="up4Btn "(click)="imageSource = '../../assets/ts4.jpg'" style="width: 10%,height=auto">4.In Hyderabad which item has the highest quantity order in the dataset?</button><br>
+
+<button class="up5Btn" (click)="imageSource = '../../assets/ts5.jpg'" style="width: 10%,height=auto">5.In Hyderabad which cuisine has the lowest item price in the dataset?</button><br>
+
+<div class="img">
+<img [src]="imageSource" *ngIf="imageSource"/>
+</div>

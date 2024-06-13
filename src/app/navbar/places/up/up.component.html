@@ -1,0 +1,13 @@
+<button class="up1Btn "(click)="imageSource = '../../assets/up1.jpg'" style="width: 10%,height=auto">1.Which is the cuisine in which most money was spent in the place 'Noida'?</button><br>
+
+<button class="up2Btn" (click)="imageSource = '../../assets/up2.jpg'" style="width: 10% ,height=auto">2.	Find the Customer ID(s) which ordered the largest quantity of items in the place 'Noida'?</button><br>
+
+<button class="up3Btn" (click)="imageSource = '../../assets/up3.jpg'" style="width: 10%,height=auto">3.	Which are the restaurants with the highest food rating compared to other restaurants in 'Noida'?</button><br>
+
+<button class="up4Btn "(click)="imageSource = '../../assets/up4.jpg'" style="width: 10%,height=auto">4.	Which is the most used mode of payment in 'Noida'?</button><br>
+
+<button class="up5Btn" (click)="imageSource = '../../assets/up5.jpg'" style="width: 10%,height=auto">5.	Which food item in Noida is most expensive according to the data collected?</button><br>
+
+<div class="img">
+<img [src]="imageSource" *ngIf="imageSource"/>
+</div>
