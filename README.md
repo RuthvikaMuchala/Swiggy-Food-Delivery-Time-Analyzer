@@ -1,4 +1,21 @@
-# Intnew
+# Swiggy-Food-Delivery-Time-Analyzer
+
+### Problem Statement
+
+- Future of online food ordering website is bright. Facilities, Comfort, User friendliness are the key features of online websites success.
+- We often order food from food delivery apps like Zomato, Swiggy. Sometimes it often takes time to deliver the food.
+- There are factors which impact the delivery time of the food.
+- Delivery time for an order is determined by various factors like distance, area, Restaurant rating , etc.
+
+### WorkFlow
+![image](https://github.com/RuthvikaMuchala/Swiggy-Food-Delivery-Time-Analyzer/assets/92968569/bdb2d79d-c611-441d-9d3c-6dac6afe6601)
+
+### Output
+![image](https://github.com/RuthvikaMuchala/Swiggy-Food-Delivery-Time-Analyzer/assets/92968569/3f70cd8d-0d6e-43ff-81f8-4a98b9d681f3)
+
+<hr>
+
+# Running the Web Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
