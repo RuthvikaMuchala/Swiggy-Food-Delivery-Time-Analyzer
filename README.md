@@ -7,11 +7,12 @@
 - There are factors which impact the delivery time of the food.
 - Delivery time for an order is determined by various factors like distance, area, Restaurant rating , etc.
 
+### Demo Application
+https://github.com/RuthvikaMuchala/Swiggy-Food-Delivery-Time-Analyzer/assets/92968569/c76d6f47-f109-48e0-ac36-2be2be9ebc9b
+
+
 ### WorkFlow
 ![image](https://github.com/RuthvikaMuchala/Swiggy-Food-Delivery-Time-Analyzer/assets/92968569/bdb2d79d-c611-441d-9d3c-6dac6afe6601)
-
-### Output
-![image](https://github.com/RuthvikaMuchala/Swiggy-Food-Delivery-Time-Analyzer/assets/92968569/3f70cd8d-0d6e-43ff-81f8-4a98b9d681f3)
 
 <hr>
 
